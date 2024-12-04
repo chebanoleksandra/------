@@ -1,0 +1,26 @@
+* {
+    font-size:  28px;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+span {
+    color: red;
+    font-size: 28px;
+}
+button
+{
+    margin-top: 20px;
+    width: 120px;
+    border: none;
+    background-color: pink;
+    box-shadow: 1px 1px 5px rgba(139, 0, 0, 0.486);
+}
+label{
+    font-weight: 600;
+}

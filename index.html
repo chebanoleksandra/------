@@ -2,35 +2,29 @@
 <html>
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Получение прогноза погоды</title>
 </head>
-<style>
-    * {
-        font-size: 32px;
-    }
-
-    span {
-        color: red;
-        font-size: 32px;
-    }
-</style>
-
 <body>
-    <div id="wrapper" style="display: flex; align-items: center;">
-        <form style="display: inline-block; margin-right: 50px;">
+    <div id="wrapper" style="display: flex; align-items:baseline;">
+        <div style="display: inline-block; margin-right: 50px;">
             <label for="cityName">City name: <input type="text" id="cityName"></label>
             <button style="display: block;" id="send">Look</button>
-        </form>
+        </div>
         <div style="display: inline-block;">
             <h1>Weather forecast - <span id=city> </span></h1>
             <div id="weather"></div>
-            <img id="img" style="width: 100px;">
+            <img id="img" style="width: 75px;">
             <div id="sunset"></div>
             <div id="sunrise"></div>
         </div>
     </div>
-    
-    
+
+
 
     <script src="./script.js"></script>
 </body>
